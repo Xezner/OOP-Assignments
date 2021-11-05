@@ -1,0 +1,9 @@
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\bin\Debug\Abueg_Assignment_03.exe.config
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\bin\Debug\Abueg_Assignment_03.exe
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\bin\Debug\Abueg_Assignment_03.pdb
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.Form1.resources
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.Properties.Resources.resources
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.csproj.GenerateResource.cache
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.csproj.CoreCompileInputs.cache
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.exe
+C:\Users\prenc\source\repos\Abueg_Assignment_03\Abueg_Assignment_03\obj\Debug\Abueg_Assignment_03.pdb
