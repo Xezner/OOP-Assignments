@@ -1,0 +1,10 @@
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\bin\Debug\Abueg_Assignment_05.exe.config
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\bin\Debug\Abueg_Assignment_05.exe
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\bin\Debug\Abueg_Assignment_05.pdb
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.csprojAssemblyReference.cache
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.Form1.resources
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.Properties.Resources.resources
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.csproj.GenerateResource.cache
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.csproj.CoreCompileInputs.cache
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.exe
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_05\Abueg_Assignment_05\Abueg_Assignment_05\obj\Debug\Abueg_Assignment_05.pdb
