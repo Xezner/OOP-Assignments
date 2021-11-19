@@ -26,16 +26,6 @@ namespace Abueg_Assignment_05
 
         }
 
-        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void click(object sender, EventArgs e)
         {
             Button box = (Button)sender;
@@ -80,13 +70,104 @@ namespace Abueg_Assignment_05
                 }
             }
 
-
+            tictactoe();
         }
 
         private void tictactoe()
         {
+            if ((r1c1.Text == r1c2.Text) && (r1c2.Text == r1c3.Text)) // row1
+            {
+                if (r1c3.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r1c3.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r2c1.Text == r2c2.Text) && (r2c2.Text == r2c3.Text)) //row2
+            {
+                if (r2c3.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r2c3.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r3c1.Text == r3c2.Text) && (r3c2.Text == r3c3.Text)) //row3
+            {
+                if (r3c3.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c3.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r1c1.Text == r2c1.Text) && (r2c1.Text == r3c1.Text)) //col1
+            {
+                if (r3c1.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c1.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r1c2.Text == r2c2.Text) && (r2c2.Text == r3c2.Text)) //col2
+            {
+                if (r3c2.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c2.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r1c3.Text == r2c3.Text) && (r2c3.Text == r3c3.Text)) //col3
+            {
+                if (r3c3.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c3.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r1c1.Text == r2c2.Text) && (r2c2.Text == r3c3.Text)) //diag1 r1c1 r2c2 r3c3
+            {
+                if (r3c3.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c3.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            if ((r1c3.Text == r2c2.Text) && (r2c2.Text == r3c1.Text)) //diag2 r1c3 r2c2 r3c1
+            {
+                if (r3c1.Text == "X")
+                    MessageBox.Show("X wins");
+                else if (r3c1.Text == "O")
+                    MessageBox.Show("O wins");
+            }
+            turn_counter = 0;
+            for ( int i = 0; i < 9; i ++)
+            {
+                if (boxesState[i] == true)
+                    turn_counter++;
+                if (turn_counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    return;
+                }
+            }
+
 
         }
 
+        private void newGameClick(object sender, EventArgs e)
+        {
+            turn = !turn;
+            turn_counter = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                boxesState[i] = false;
+            }
+            try
+            {
+                foreach (Control c in Controls)
+                {
+                    Button box = (Button)c;
+                    box.Text = "";
+                }
+            }
+            catch { }
+        }
+
+        private void exitGame(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
