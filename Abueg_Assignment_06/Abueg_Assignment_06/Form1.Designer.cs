@@ -51,7 +51,6 @@ namespace Abueg_Assignment_06
             this.numberBox = new System.Windows.Forms.TextBox();
             this.emailBox = new System.Windows.Forms.TextBox();
             this.submit = new System.Windows.Forms.Button();
-            this.viewButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -250,7 +249,7 @@ namespace Abueg_Assignment_06
             this.submit.BackColor = System.Drawing.Color.LimeGreen;
             this.submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submit.ForeColor = System.Drawing.Color.White;
-            this.submit.Location = new System.Drawing.Point(515, 499);
+            this.submit.Location = new System.Drawing.Point(536, 499);
             this.submit.Name = "submit";
             this.submit.Size = new System.Drawing.Size(90, 38);
             this.submit.TabIndex = 19;
@@ -258,26 +257,12 @@ namespace Abueg_Assignment_06
             this.submit.UseVisualStyleBackColor = false;
             this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
-            // viewButton
-            // 
-            this.viewButton.BackColor = System.Drawing.Color.LimeGreen;
-            this.viewButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewButton.ForeColor = System.Drawing.Color.White;
-            this.viewButton.Location = new System.Drawing.Point(623, 499);
-            this.viewButton.Name = "viewButton";
-            this.viewButton.Size = new System.Drawing.Size(90, 38);
-            this.viewButton.TabIndex = 20;
-            this.viewButton.Text = "View";
-            this.viewButton.UseVisualStyleBackColor = false;
-            this.viewButton.Click += new System.EventHandler(this.viewButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1123, 549);
-            this.Controls.Add(this.viewButton);
             this.Controls.Add(this.submit);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.numberBox);
@@ -329,7 +314,6 @@ namespace Abueg_Assignment_06
         private System.Windows.Forms.TextBox numberBox;
         private System.Windows.Forms.TextBox emailBox;
         private System.Windows.Forms.Button submit;
-        private System.Windows.Forms.Button viewButton;
     }
 }
 
