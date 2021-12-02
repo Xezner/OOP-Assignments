@@ -20,6 +20,7 @@ namespace Abueg_Assignment_06
         string number_ = "";
         string email_ = "";
         string filename = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_06\ContactTracingForm.txt";
+        string textInfo;
         public Form1()
         {
             InitializeComponent();
@@ -87,8 +88,8 @@ namespace Abueg_Assignment_06
                             sw.WriteLine("Address: {0}", address_);
                             sw.WriteLine("Contact No.: {0}", number_);
                             sw.WriteLine("Email: {0}", email_);
-                            sw.WriteLine("----------------------------------------------------------------------");
-                            sw.WriteLine(" ");
+                            //sw.WriteLine("----------------------------------------------------------------------");
+                            //sw.WriteLine(" ");
                         }
                     }
                     else if (File.Exists(filename))
@@ -130,6 +131,21 @@ namespace Abueg_Assignment_06
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void viewButton_Click(object sender, EventArgs e)
+        {
+            var read = new FileStream(@"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_06\ContactTracingForm.txt", FileMode.Open, FileAccess.Read);
+            using (var streamReader = new StreamReader(read, Encoding.UTF8))
+            {
+                textInfo = streamReader.ReadToEnd();
+                foreach( var a in textInfo.Split(new[] { "----------------------------------------------------------------------" }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    MessageBox.Show(a);
+                }
+                
+
+            }
         }
     }
 }
