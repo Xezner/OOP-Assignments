@@ -151,7 +151,7 @@ namespace Abueg_Assigment_08
                         break;
                     case 7:
                         int i7 = 0;
-                        foreach (bool b in six)
+                        foreach (bool b in seven)
                         {
                             if (b)
                                 sevenSeg[i7].BackColor = Color.White;
@@ -163,7 +163,7 @@ namespace Abueg_Assigment_08
                         break;
                     case 8:
                         int i8 = 0;
-                        foreach (bool b in six)
+                        foreach (bool b in eight)
                         {
                             if (b)
                                 sevenSeg[i8].BackColor = Color.White;
@@ -175,7 +175,7 @@ namespace Abueg_Assigment_08
                         break;
                     case 9:
                         int i9 = 0;
-                        foreach (bool b in six)
+                        foreach (bool b in nine)
                         {
                             if (b)
                                 sevenSeg[i9].BackColor = Color.White;
