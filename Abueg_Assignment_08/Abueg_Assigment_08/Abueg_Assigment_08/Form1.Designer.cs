@@ -46,36 +46,36 @@ namespace Abueg_Assigment_08
             this.button2B = new System.Windows.Forms.Button();
             this.button2A = new System.Windows.Forms.Button();
             this.button2F = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.button4D = new System.Windows.Forms.Button();
+            this.button4C = new System.Windows.Forms.Button();
+            this.button4E = new System.Windows.Forms.Button();
+            this.button4G = new System.Windows.Forms.Button();
+            this.button4B = new System.Windows.Forms.Button();
+            this.button4A = new System.Windows.Forms.Button();
+            this.button4F = new System.Windows.Forms.Button();
             this.dot2B = new System.Windows.Forms.Button();
             this.dot2A = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
+            this.button3D = new System.Windows.Forms.Button();
+            this.button3C = new System.Windows.Forms.Button();
+            this.button3E = new System.Windows.Forms.Button();
+            this.button3G = new System.Windows.Forms.Button();
+            this.button3B = new System.Windows.Forms.Button();
+            this.button3A = new System.Windows.Forms.Button();
+            this.button3F = new System.Windows.Forms.Button();
+            this.button6D = new System.Windows.Forms.Button();
+            this.button6C = new System.Windows.Forms.Button();
+            this.button6E = new System.Windows.Forms.Button();
+            this.button6G = new System.Windows.Forms.Button();
+            this.button6B = new System.Windows.Forms.Button();
+            this.button6A = new System.Windows.Forms.Button();
+            this.button6F = new System.Windows.Forms.Button();
+            this.button5D = new System.Windows.Forms.Button();
+            this.button5C = new System.Windows.Forms.Button();
+            this.button5E = new System.Windows.Forms.Button();
+            this.button5G = new System.Windows.Forms.Button();
+            this.button5B = new System.Windows.Forms.Button();
+            this.button5A = new System.Windows.Forms.Button();
+            this.button5F = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1F
@@ -289,96 +289,96 @@ namespace Abueg_Assigment_08
             this.button2F.TabIndex = 10;
             this.button2F.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // button4D
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button9.Location = new System.Drawing.Point(756, 343);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(125, 25);
-            this.button9.TabIndex = 32;
-            this.button9.UseVisualStyleBackColor = false;
+            this.button4D.BackColor = System.Drawing.Color.White;
+            this.button4D.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4D.FlatAppearance.BorderSize = 0;
+            this.button4D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4D.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4D.Location = new System.Drawing.Point(756, 343);
+            this.button4D.Name = "button4D";
+            this.button4D.Size = new System.Drawing.Size(125, 25);
+            this.button4D.TabIndex = 32;
+            this.button4D.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // button4C
             // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button10.Location = new System.Drawing.Point(883, 218);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(25, 125);
-            this.button10.TabIndex = 31;
-            this.button10.UseVisualStyleBackColor = false;
+            this.button4C.BackColor = System.Drawing.Color.White;
+            this.button4C.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4C.FlatAppearance.BorderSize = 0;
+            this.button4C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4C.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4C.Location = new System.Drawing.Point(883, 218);
+            this.button4C.Name = "button4C";
+            this.button4C.Size = new System.Drawing.Size(25, 125);
+            this.button4C.TabIndex = 31;
+            this.button4C.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // button4E
             // 
-            this.button11.BackColor = System.Drawing.Color.White;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button11.Location = new System.Drawing.Point(729, 218);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(25, 125);
-            this.button11.TabIndex = 30;
-            this.button11.UseVisualStyleBackColor = false;
+            this.button4E.BackColor = System.Drawing.Color.White;
+            this.button4E.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4E.FlatAppearance.BorderSize = 0;
+            this.button4E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4E.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4E.Location = new System.Drawing.Point(729, 218);
+            this.button4E.Name = "button4E";
+            this.button4E.Size = new System.Drawing.Size(25, 125);
+            this.button4E.TabIndex = 30;
+            this.button4E.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // button4G
             // 
-            this.button12.BackColor = System.Drawing.Color.White;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button12.Location = new System.Drawing.Point(756, 191);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(125, 25);
-            this.button12.TabIndex = 29;
-            this.button12.UseVisualStyleBackColor = false;
+            this.button4G.BackColor = System.Drawing.Color.White;
+            this.button4G.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4G.FlatAppearance.BorderSize = 0;
+            this.button4G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4G.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4G.Location = new System.Drawing.Point(756, 191);
+            this.button4G.Name = "button4G";
+            this.button4G.Size = new System.Drawing.Size(125, 25);
+            this.button4G.TabIndex = 29;
+            this.button4G.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // button4B
             // 
-            this.button13.BackColor = System.Drawing.Color.White;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button13.Location = new System.Drawing.Point(883, 64);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(25, 125);
-            this.button13.TabIndex = 28;
-            this.button13.UseVisualStyleBackColor = false;
+            this.button4B.BackColor = System.Drawing.Color.White;
+            this.button4B.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4B.FlatAppearance.BorderSize = 0;
+            this.button4B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4B.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4B.Location = new System.Drawing.Point(883, 64);
+            this.button4B.Name = "button4B";
+            this.button4B.Size = new System.Drawing.Size(25, 125);
+            this.button4B.TabIndex = 28;
+            this.button4B.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // button4A
             // 
-            this.button14.BackColor = System.Drawing.Color.White;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button14.Location = new System.Drawing.Point(756, 38);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(125, 25);
-            this.button14.TabIndex = 27;
-            this.button14.UseVisualStyleBackColor = false;
+            this.button4A.BackColor = System.Drawing.Color.White;
+            this.button4A.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4A.FlatAppearance.BorderSize = 0;
+            this.button4A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4A.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4A.Location = new System.Drawing.Point(756, 38);
+            this.button4A.Name = "button4A";
+            this.button4A.Size = new System.Drawing.Size(125, 25);
+            this.button4A.TabIndex = 27;
+            this.button4A.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // button4F
             // 
-            this.button15.BackColor = System.Drawing.Color.White;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button15.Location = new System.Drawing.Point(729, 64);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(25, 125);
-            this.button15.TabIndex = 26;
-            this.button15.UseVisualStyleBackColor = false;
+            this.button4F.BackColor = System.Drawing.Color.White;
+            this.button4F.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4F.FlatAppearance.BorderSize = 0;
+            this.button4F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4F.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button4F.Location = new System.Drawing.Point(729, 64);
+            this.button4F.Name = "button4F";
+            this.button4F.Size = new System.Drawing.Size(25, 125);
+            this.button4F.TabIndex = 26;
+            this.button4F.UseVisualStyleBackColor = false;
             // 
             // dot2B
             // 
@@ -406,278 +406,278 @@ namespace Abueg_Assigment_08
             this.dot2A.TabIndex = 24;
             this.dot2A.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // button3D
             // 
-            this.button18.BackColor = System.Drawing.Color.White;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button18.Location = new System.Drawing.Point(545, 343);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(125, 25);
-            this.button18.TabIndex = 23;
-            this.button18.UseVisualStyleBackColor = false;
+            this.button3D.BackColor = System.Drawing.Color.White;
+            this.button3D.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3D.FlatAppearance.BorderSize = 0;
+            this.button3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3D.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3D.Location = new System.Drawing.Point(545, 343);
+            this.button3D.Name = "button3D";
+            this.button3D.Size = new System.Drawing.Size(125, 25);
+            this.button3D.TabIndex = 23;
+            this.button3D.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // button3C
             // 
-            this.button19.BackColor = System.Drawing.Color.White;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button19.Location = new System.Drawing.Point(672, 218);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(25, 125);
-            this.button19.TabIndex = 22;
-            this.button19.UseVisualStyleBackColor = false;
+            this.button3C.BackColor = System.Drawing.Color.White;
+            this.button3C.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3C.FlatAppearance.BorderSize = 0;
+            this.button3C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3C.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3C.Location = new System.Drawing.Point(672, 218);
+            this.button3C.Name = "button3C";
+            this.button3C.Size = new System.Drawing.Size(25, 125);
+            this.button3C.TabIndex = 22;
+            this.button3C.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // button3E
             // 
-            this.button20.BackColor = System.Drawing.Color.White;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button20.Location = new System.Drawing.Point(518, 218);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(25, 125);
-            this.button20.TabIndex = 21;
-            this.button20.UseVisualStyleBackColor = false;
+            this.button3E.BackColor = System.Drawing.Color.White;
+            this.button3E.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3E.FlatAppearance.BorderSize = 0;
+            this.button3E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3E.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3E.Location = new System.Drawing.Point(518, 218);
+            this.button3E.Name = "button3E";
+            this.button3E.Size = new System.Drawing.Size(25, 125);
+            this.button3E.TabIndex = 21;
+            this.button3E.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // button3G
             // 
-            this.button21.BackColor = System.Drawing.Color.White;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button21.Location = new System.Drawing.Point(545, 191);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(125, 25);
-            this.button21.TabIndex = 20;
-            this.button21.UseVisualStyleBackColor = false;
+            this.button3G.BackColor = System.Drawing.Color.White;
+            this.button3G.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3G.FlatAppearance.BorderSize = 0;
+            this.button3G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3G.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3G.Location = new System.Drawing.Point(545, 191);
+            this.button3G.Name = "button3G";
+            this.button3G.Size = new System.Drawing.Size(125, 25);
+            this.button3G.TabIndex = 20;
+            this.button3G.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // button3B
             // 
-            this.button22.BackColor = System.Drawing.Color.White;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button22.Location = new System.Drawing.Point(672, 64);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(25, 125);
-            this.button22.TabIndex = 19;
-            this.button22.UseVisualStyleBackColor = false;
+            this.button3B.BackColor = System.Drawing.Color.White;
+            this.button3B.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3B.FlatAppearance.BorderSize = 0;
+            this.button3B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3B.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3B.Location = new System.Drawing.Point(672, 64);
+            this.button3B.Name = "button3B";
+            this.button3B.Size = new System.Drawing.Size(25, 125);
+            this.button3B.TabIndex = 19;
+            this.button3B.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // button3A
             // 
-            this.button23.BackColor = System.Drawing.Color.White;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button23.Location = new System.Drawing.Point(545, 38);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(125, 25);
-            this.button23.TabIndex = 18;
-            this.button23.UseVisualStyleBackColor = false;
+            this.button3A.BackColor = System.Drawing.Color.White;
+            this.button3A.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3A.FlatAppearance.BorderSize = 0;
+            this.button3A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3A.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3A.Location = new System.Drawing.Point(545, 38);
+            this.button3A.Name = "button3A";
+            this.button3A.Size = new System.Drawing.Size(125, 25);
+            this.button3A.TabIndex = 18;
+            this.button3A.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // button3F
             // 
-            this.button24.BackColor = System.Drawing.Color.White;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button24.Location = new System.Drawing.Point(518, 64);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(25, 125);
-            this.button24.TabIndex = 17;
-            this.button24.UseVisualStyleBackColor = false;
+            this.button3F.BackColor = System.Drawing.Color.White;
+            this.button3F.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3F.FlatAppearance.BorderSize = 0;
+            this.button3F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3F.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button3F.Location = new System.Drawing.Point(518, 64);
+            this.button3F.Name = "button3F";
+            this.button3F.Size = new System.Drawing.Size(25, 125);
+            this.button3F.TabIndex = 17;
+            this.button3F.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // button6D
             // 
-            this.button25.BackColor = System.Drawing.Color.White;
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button25.Location = new System.Drawing.Point(1248, 343);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(125, 25);
-            this.button25.TabIndex = 46;
-            this.button25.UseVisualStyleBackColor = false;
+            this.button6D.BackColor = System.Drawing.Color.White;
+            this.button6D.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6D.FlatAppearance.BorderSize = 0;
+            this.button6D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6D.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6D.Location = new System.Drawing.Point(1248, 343);
+            this.button6D.Name = "button6D";
+            this.button6D.Size = new System.Drawing.Size(125, 25);
+            this.button6D.TabIndex = 46;
+            this.button6D.UseVisualStyleBackColor = false;
             // 
-            // button26
+            // button6C
             // 
-            this.button26.BackColor = System.Drawing.Color.White;
-            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button26.Location = new System.Drawing.Point(1375, 218);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(25, 125);
-            this.button26.TabIndex = 45;
-            this.button26.UseVisualStyleBackColor = false;
+            this.button6C.BackColor = System.Drawing.Color.White;
+            this.button6C.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6C.FlatAppearance.BorderSize = 0;
+            this.button6C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6C.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6C.Location = new System.Drawing.Point(1375, 218);
+            this.button6C.Name = "button6C";
+            this.button6C.Size = new System.Drawing.Size(25, 125);
+            this.button6C.TabIndex = 45;
+            this.button6C.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // button6E
             // 
-            this.button27.BackColor = System.Drawing.Color.White;
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button27.Location = new System.Drawing.Point(1221, 218);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(25, 125);
-            this.button27.TabIndex = 44;
-            this.button27.UseVisualStyleBackColor = false;
+            this.button6E.BackColor = System.Drawing.Color.White;
+            this.button6E.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6E.FlatAppearance.BorderSize = 0;
+            this.button6E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6E.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6E.Location = new System.Drawing.Point(1221, 218);
+            this.button6E.Name = "button6E";
+            this.button6E.Size = new System.Drawing.Size(25, 125);
+            this.button6E.TabIndex = 44;
+            this.button6E.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // button6G
             // 
-            this.button28.BackColor = System.Drawing.Color.White;
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button28.Location = new System.Drawing.Point(1248, 191);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(125, 25);
-            this.button28.TabIndex = 43;
-            this.button28.UseVisualStyleBackColor = false;
+            this.button6G.BackColor = System.Drawing.Color.White;
+            this.button6G.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6G.FlatAppearance.BorderSize = 0;
+            this.button6G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6G.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6G.Location = new System.Drawing.Point(1248, 191);
+            this.button6G.Name = "button6G";
+            this.button6G.Size = new System.Drawing.Size(125, 25);
+            this.button6G.TabIndex = 43;
+            this.button6G.UseVisualStyleBackColor = false;
             // 
-            // button29
+            // button6B
             // 
-            this.button29.BackColor = System.Drawing.Color.White;
-            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button29.FlatAppearance.BorderSize = 0;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button29.Location = new System.Drawing.Point(1375, 64);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(25, 125);
-            this.button29.TabIndex = 42;
-            this.button29.UseVisualStyleBackColor = false;
+            this.button6B.BackColor = System.Drawing.Color.White;
+            this.button6B.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6B.FlatAppearance.BorderSize = 0;
+            this.button6B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6B.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6B.Location = new System.Drawing.Point(1375, 64);
+            this.button6B.Name = "button6B";
+            this.button6B.Size = new System.Drawing.Size(25, 125);
+            this.button6B.TabIndex = 42;
+            this.button6B.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // button6A
             // 
-            this.button30.BackColor = System.Drawing.Color.White;
-            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button30.Location = new System.Drawing.Point(1248, 38);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(125, 25);
-            this.button30.TabIndex = 41;
-            this.button30.UseVisualStyleBackColor = false;
+            this.button6A.BackColor = System.Drawing.Color.White;
+            this.button6A.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6A.FlatAppearance.BorderSize = 0;
+            this.button6A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6A.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6A.Location = new System.Drawing.Point(1248, 38);
+            this.button6A.Name = "button6A";
+            this.button6A.Size = new System.Drawing.Size(125, 25);
+            this.button6A.TabIndex = 41;
+            this.button6A.UseVisualStyleBackColor = false;
             // 
-            // button31
+            // button6F
             // 
-            this.button31.BackColor = System.Drawing.Color.White;
-            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button31.Location = new System.Drawing.Point(1221, 64);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(25, 125);
-            this.button31.TabIndex = 40;
-            this.button31.UseVisualStyleBackColor = false;
+            this.button6F.BackColor = System.Drawing.Color.White;
+            this.button6F.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6F.FlatAppearance.BorderSize = 0;
+            this.button6F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6F.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button6F.Location = new System.Drawing.Point(1221, 64);
+            this.button6F.Name = "button6F";
+            this.button6F.Size = new System.Drawing.Size(25, 125);
+            this.button6F.TabIndex = 40;
+            this.button6F.UseVisualStyleBackColor = false;
             // 
-            // button32
+            // button5D
             // 
-            this.button32.BackColor = System.Drawing.Color.White;
-            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button32.FlatAppearance.BorderSize = 0;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button32.Location = new System.Drawing.Point(1037, 343);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(125, 25);
-            this.button32.TabIndex = 39;
-            this.button32.UseVisualStyleBackColor = false;
+            this.button5D.BackColor = System.Drawing.Color.White;
+            this.button5D.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5D.FlatAppearance.BorderSize = 0;
+            this.button5D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5D.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5D.Location = new System.Drawing.Point(1037, 343);
+            this.button5D.Name = "button5D";
+            this.button5D.Size = new System.Drawing.Size(125, 25);
+            this.button5D.TabIndex = 39;
+            this.button5D.UseVisualStyleBackColor = false;
             // 
-            // button33
+            // button5C
             // 
-            this.button33.BackColor = System.Drawing.Color.White;
-            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button33.Location = new System.Drawing.Point(1164, 218);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(25, 125);
-            this.button33.TabIndex = 38;
-            this.button33.UseVisualStyleBackColor = false;
+            this.button5C.BackColor = System.Drawing.Color.White;
+            this.button5C.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5C.FlatAppearance.BorderSize = 0;
+            this.button5C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5C.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5C.Location = new System.Drawing.Point(1164, 218);
+            this.button5C.Name = "button5C";
+            this.button5C.Size = new System.Drawing.Size(25, 125);
+            this.button5C.TabIndex = 38;
+            this.button5C.UseVisualStyleBackColor = false;
             // 
-            // button34
+            // button5E
             // 
-            this.button34.BackColor = System.Drawing.Color.White;
-            this.button34.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button34.Location = new System.Drawing.Point(1010, 218);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(25, 125);
-            this.button34.TabIndex = 37;
-            this.button34.UseVisualStyleBackColor = false;
+            this.button5E.BackColor = System.Drawing.Color.White;
+            this.button5E.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5E.FlatAppearance.BorderSize = 0;
+            this.button5E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5E.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5E.Location = new System.Drawing.Point(1010, 218);
+            this.button5E.Name = "button5E";
+            this.button5E.Size = new System.Drawing.Size(25, 125);
+            this.button5E.TabIndex = 37;
+            this.button5E.UseVisualStyleBackColor = false;
             // 
-            // button35
+            // button5G
             // 
-            this.button35.BackColor = System.Drawing.Color.White;
-            this.button35.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button35.Location = new System.Drawing.Point(1037, 191);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(125, 25);
-            this.button35.TabIndex = 36;
-            this.button35.UseVisualStyleBackColor = false;
+            this.button5G.BackColor = System.Drawing.Color.White;
+            this.button5G.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5G.FlatAppearance.BorderSize = 0;
+            this.button5G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5G.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5G.Location = new System.Drawing.Point(1037, 191);
+            this.button5G.Name = "button5G";
+            this.button5G.Size = new System.Drawing.Size(125, 25);
+            this.button5G.TabIndex = 36;
+            this.button5G.UseVisualStyleBackColor = false;
             // 
-            // button36
+            // button5B
             // 
-            this.button36.BackColor = System.Drawing.Color.White;
-            this.button36.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button36.Location = new System.Drawing.Point(1164, 64);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(25, 125);
-            this.button36.TabIndex = 35;
-            this.button36.UseVisualStyleBackColor = false;
+            this.button5B.BackColor = System.Drawing.Color.White;
+            this.button5B.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5B.FlatAppearance.BorderSize = 0;
+            this.button5B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5B.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5B.Location = new System.Drawing.Point(1164, 64);
+            this.button5B.Name = "button5B";
+            this.button5B.Size = new System.Drawing.Size(25, 125);
+            this.button5B.TabIndex = 35;
+            this.button5B.UseVisualStyleBackColor = false;
             // 
-            // button37
+            // button5A
             // 
-            this.button37.BackColor = System.Drawing.Color.White;
-            this.button37.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button37.Location = new System.Drawing.Point(1037, 38);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(125, 25);
-            this.button37.TabIndex = 34;
-            this.button37.UseVisualStyleBackColor = false;
+            this.button5A.BackColor = System.Drawing.Color.White;
+            this.button5A.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5A.FlatAppearance.BorderSize = 0;
+            this.button5A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5A.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5A.Location = new System.Drawing.Point(1037, 38);
+            this.button5A.Name = "button5A";
+            this.button5A.Size = new System.Drawing.Size(125, 25);
+            this.button5A.TabIndex = 34;
+            this.button5A.UseVisualStyleBackColor = false;
             // 
-            // button38
+            // button5F
             // 
-            this.button38.BackColor = System.Drawing.Color.White;
-            this.button38.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button38.Location = new System.Drawing.Point(1010, 64);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(25, 125);
-            this.button38.TabIndex = 33;
-            this.button38.UseVisualStyleBackColor = false;
+            this.button5F.BackColor = System.Drawing.Color.White;
+            this.button5F.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5F.FlatAppearance.BorderSize = 0;
+            this.button5F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5F.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button5F.Location = new System.Drawing.Point(1010, 64);
+            this.button5F.Name = "button5F";
+            this.button5F.Size = new System.Drawing.Size(25, 125);
+            this.button5F.TabIndex = 33;
+            this.button5F.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -687,36 +687,36 @@ namespace Abueg_Assigment_08
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1423, 401);
-            this.Controls.Add(this.button25);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
-            this.Controls.Add(this.button36);
-            this.Controls.Add(this.button37);
-            this.Controls.Add(this.button38);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button6D);
+            this.Controls.Add(this.button6C);
+            this.Controls.Add(this.button6E);
+            this.Controls.Add(this.button6G);
+            this.Controls.Add(this.button6B);
+            this.Controls.Add(this.button6A);
+            this.Controls.Add(this.button6F);
+            this.Controls.Add(this.button5D);
+            this.Controls.Add(this.button5C);
+            this.Controls.Add(this.button5E);
+            this.Controls.Add(this.button5G);
+            this.Controls.Add(this.button5B);
+            this.Controls.Add(this.button5A);
+            this.Controls.Add(this.button5F);
+            this.Controls.Add(this.button4D);
+            this.Controls.Add(this.button4C);
+            this.Controls.Add(this.button4E);
+            this.Controls.Add(this.button4G);
+            this.Controls.Add(this.button4B);
+            this.Controls.Add(this.button4A);
+            this.Controls.Add(this.button4F);
             this.Controls.Add(this.dot2B);
             this.Controls.Add(this.dot2A);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
+            this.Controls.Add(this.button3D);
+            this.Controls.Add(this.button3C);
+            this.Controls.Add(this.button3E);
+            this.Controls.Add(this.button3G);
+            this.Controls.Add(this.button3B);
+            this.Controls.Add(this.button3A);
+            this.Controls.Add(this.button3F);
             this.Controls.Add(this.button2D);
             this.Controls.Add(this.button2C);
             this.Controls.Add(this.button2E);
@@ -757,36 +757,36 @@ namespace Abueg_Assigment_08
         private System.Windows.Forms.Button button2B;
         private System.Windows.Forms.Button button2A;
         private System.Windows.Forms.Button button2F;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button4D;
+        private System.Windows.Forms.Button button4C;
+        private System.Windows.Forms.Button button4E;
+        private System.Windows.Forms.Button button4G;
+        private System.Windows.Forms.Button button4B;
+        private System.Windows.Forms.Button button4A;
+        private System.Windows.Forms.Button button4F;
         private System.Windows.Forms.Button dot2B;
         private System.Windows.Forms.Button dot2A;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button3D;
+        private System.Windows.Forms.Button button3C;
+        private System.Windows.Forms.Button button3E;
+        private System.Windows.Forms.Button button3G;
+        private System.Windows.Forms.Button button3B;
+        private System.Windows.Forms.Button button3A;
+        private System.Windows.Forms.Button button3F;
+        private System.Windows.Forms.Button button6D;
+        private System.Windows.Forms.Button button6C;
+        private System.Windows.Forms.Button button6E;
+        private System.Windows.Forms.Button button6G;
+        private System.Windows.Forms.Button button6B;
+        private System.Windows.Forms.Button button6A;
+        private System.Windows.Forms.Button button6F;
+        private System.Windows.Forms.Button button5D;
+        private System.Windows.Forms.Button button5C;
+        private System.Windows.Forms.Button button5E;
+        private System.Windows.Forms.Button button5G;
+        private System.Windows.Forms.Button button5B;
+        private System.Windows.Forms.Button button5A;
+        private System.Windows.Forms.Button button5F;
     }
 }
 
