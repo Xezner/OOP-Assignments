@@ -12,6 +12,7 @@ using ZXing.Aztec;
 using AForge;
 using AForge.Video;
 using AForge.Video.DirectShow;
+using System.IO;
 
 namespace Assignment10
 {
@@ -72,13 +73,26 @@ namespace Assignment10
                 string decoded = result.ToString().Trim();
                 Console.WriteLine(decoded);
                 if (decoded != "")
-                {
+                {       
                     timer1.Stop();
-                    MessageBox.Show(decoded);
-                    //Form2 form = new Form2();
-                    //form.Show();
-                    //this.Hide();
+                    MessageBox.Show("QR Code decoded and saved into text file");
+                }
+                string filename = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_10\Assignment10\ContactTracingForm.txt";
 
+                if (!File.Exists(filename))
+                {
+                    using (StreamWriter sw = File.CreateText(filename))
+                    {
+                        sw.Write(decoded);
+                    }
+                }
+                else if (File.Exists(filename))
+                {
+                    File.Delete(filename);
+                    using (StreamWriter sw = File.CreateText(filename))
+                    {
+                        sw.Write(decoded);
+                    }
                 }
             }
             catch (Exception ex)
@@ -94,10 +108,6 @@ namespace Assignment10
             }
         }
 
-        private void timer1_Tick_1(object sender, EventArgs e)
-        {
-            
-        }
 
     }
 }

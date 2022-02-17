@@ -41,7 +41,7 @@ namespace Assignment10
             // scanQR
             // 
             this.scanQR.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scanQR.Location = new System.Drawing.Point(625, 176);
+            this.scanQR.Location = new System.Drawing.Point(896, 220);
             this.scanQR.Name = "scanQR";
             this.scanQR.Size = new System.Drawing.Size(150, 60);
             this.scanQR.TabIndex = 0;
@@ -51,25 +51,25 @@ namespace Assignment10
             // 
             // comboBox1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(625, 99);
+            this.comboBox1.Location = new System.Drawing.Point(896, 186);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(150, 47);
+            this.comboBox1.Size = new System.Drawing.Size(150, 28);
             this.comboBox1.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 22);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(588, 416);
+            this.pictureBox1.Size = new System.Drawing.Size(805, 537);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(625, 278);
+            this.button2.Location = new System.Drawing.Point(896, 322);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 60);
             this.button2.TabIndex = 3;
@@ -81,7 +81,7 @@ namespace Assignment10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1198, 654);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
