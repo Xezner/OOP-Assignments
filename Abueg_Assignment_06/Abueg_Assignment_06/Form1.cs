@@ -88,7 +88,7 @@ namespace Abueg_Assignment_06
                             sw.WriteLine("Address: {0}", address_);
                             sw.WriteLine("Contact No.: {0}", number_);
                             sw.WriteLine("Email: {0}", email_);
-                            //sw.WriteLine("----------------------------------------------------------------------");
+                            sw.WriteLine("----------------------------------------------------------------------");
                             //sw.WriteLine(" ");
                         }
                     }
@@ -96,7 +96,7 @@ namespace Abueg_Assignment_06
                     {
                         using (StreamWriter sw = File.AppendText(filename))
                         {
-                            sw.WriteLine("----------------------------------------------------------------------");
+                            //sw.WriteLine("----------------------------------------------------------------------");
                             sw.WriteLine("Body Temp: {0}", temp_);
                             sw.WriteLine("Date & Time {0}", date_);
                             sw.WriteLine("Name: {0}", name_);
