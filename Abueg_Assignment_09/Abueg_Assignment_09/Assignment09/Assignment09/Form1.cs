@@ -85,7 +85,6 @@ namespace Assignment09
 
             string jsonResume = JsonNet.Serialize(newResume);
 
-            MessageBox.Show(jsonResume);
 
             string filePath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text + firstNameBox.Text + ".json";
             System.IO.File.WriteAllText(filePath, jsonResume);
