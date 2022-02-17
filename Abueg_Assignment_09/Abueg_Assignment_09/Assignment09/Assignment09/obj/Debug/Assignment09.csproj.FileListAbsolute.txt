@@ -20,3 +20,12 @@ C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assign
 C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\obj\Debug\Assignment09.pdb
 C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\Json.Net.dll
 C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\obj\Debug\Assignment09.csproj.CopyComplete
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\itextsharp.dll
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\PdfSharp.Charting.dll
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\PdfSharp.dll
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\itextsharp.xml
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\PdfSharp.xml
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\PdfSharp.Charting.xml
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Assignment09\Assignment09\bin\Debug\de\PdfSharp.Charting.resources.dll

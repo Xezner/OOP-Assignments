@@ -294,7 +294,7 @@ namespace Assignment09
             // 
             this.expLabel.AutoSize = true;
             this.expLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expLabel.Location = new System.Drawing.Point(25, 503);
+            this.expLabel.Location = new System.Drawing.Point(25, 487);
             this.expLabel.Name = "expLabel";
             this.expLabel.Size = new System.Drawing.Size(110, 22);
             this.expLabel.TabIndex = 23;
@@ -303,7 +303,7 @@ namespace Assignment09
             // expBox
             // 
             this.expBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expBox.Location = new System.Drawing.Point(29, 528);
+            this.expBox.Location = new System.Drawing.Point(29, 512);
             this.expBox.Name = "expBox";
             this.expBox.Size = new System.Drawing.Size(709, 118);
             this.expBox.TabIndex = 24;
@@ -312,7 +312,7 @@ namespace Assignment09
             // skillsBox
             // 
             this.skillsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skillsBox.Location = new System.Drawing.Point(29, 703);
+            this.skillsBox.Location = new System.Drawing.Point(29, 687);
             this.skillsBox.Name = "skillsBox";
             this.skillsBox.Size = new System.Drawing.Size(709, 118);
             this.skillsBox.TabIndex = 26;
@@ -322,7 +322,7 @@ namespace Assignment09
             // 
             this.skillsLabel.AutoSize = true;
             this.skillsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.skillsLabel.Location = new System.Drawing.Point(25, 678);
+            this.skillsLabel.Location = new System.Drawing.Point(25, 662);
             this.skillsLabel.Name = "skillsLabel";
             this.skillsLabel.Size = new System.Drawing.Size(58, 22);
             this.skillsLabel.TabIndex = 25;
@@ -332,7 +332,7 @@ namespace Assignment09
             // 
             this.charRefLabel.AutoSize = true;
             this.charRefLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefLabel.Location = new System.Drawing.Point(25, 833);
+            this.charRefLabel.Location = new System.Drawing.Point(25, 817);
             this.charRefLabel.Name = "charRefLabel";
             this.charRefLabel.Size = new System.Drawing.Size(206, 22);
             this.charRefLabel.TabIndex = 27;
@@ -341,7 +341,7 @@ namespace Assignment09
             // charRefNameBox1
             // 
             this.charRefNameBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefNameBox1.Location = new System.Drawing.Point(29, 892);
+            this.charRefNameBox1.Location = new System.Drawing.Point(29, 876);
             this.charRefNameBox1.Name = "charRefNameBox1";
             this.charRefNameBox1.Size = new System.Drawing.Size(327, 27);
             this.charRefNameBox1.TabIndex = 28;
@@ -350,7 +350,7 @@ namespace Assignment09
             // 
             this.charRefNameLabel1.AutoSize = true;
             this.charRefNameLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefNameLabel1.Location = new System.Drawing.Point(25, 867);
+            this.charRefNameLabel1.Location = new System.Drawing.Point(25, 851);
             this.charRefNameLabel1.Name = "charRefNameLabel1";
             this.charRefNameLabel1.Size = new System.Drawing.Size(67, 22);
             this.charRefNameLabel1.TabIndex = 29;
@@ -360,7 +360,7 @@ namespace Assignment09
             // 
             this.charRefTitleLabel1.AutoSize = true;
             this.charRefTitleLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefTitleLabel1.Location = new System.Drawing.Point(25, 922);
+            this.charRefTitleLabel1.Location = new System.Drawing.Point(25, 906);
             this.charRefTitleLabel1.Name = "charRefTitleLabel1";
             this.charRefTitleLabel1.Size = new System.Drawing.Size(114, 22);
             this.charRefTitleLabel1.TabIndex = 31;
@@ -369,7 +369,7 @@ namespace Assignment09
             // charRefTitleBox1
             // 
             this.charRefTitleBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefTitleBox1.Location = new System.Drawing.Point(29, 947);
+            this.charRefTitleBox1.Location = new System.Drawing.Point(29, 931);
             this.charRefTitleBox1.Name = "charRefTitleBox1";
             this.charRefTitleBox1.Size = new System.Drawing.Size(327, 27);
             this.charRefTitleBox1.TabIndex = 30;
@@ -378,7 +378,7 @@ namespace Assignment09
             // 
             this.charRefContactLabel1.AutoSize = true;
             this.charRefContactLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefContactLabel1.Location = new System.Drawing.Point(25, 977);
+            this.charRefContactLabel1.Location = new System.Drawing.Point(25, 961);
             this.charRefContactLabel1.Name = "charRefContactLabel1";
             this.charRefContactLabel1.Size = new System.Drawing.Size(105, 22);
             this.charRefContactLabel1.TabIndex = 33;
@@ -387,7 +387,7 @@ namespace Assignment09
             // charRefContactBox1
             // 
             this.charRefContactBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefContactBox1.Location = new System.Drawing.Point(29, 1002);
+            this.charRefContactBox1.Location = new System.Drawing.Point(29, 986);
             this.charRefContactBox1.Name = "charRefContactBox1";
             this.charRefContactBox1.Size = new System.Drawing.Size(327, 27);
             this.charRefContactBox1.TabIndex = 32;
@@ -396,7 +396,7 @@ namespace Assignment09
             // 
             this.charRefContactLabel2.AutoSize = true;
             this.charRefContactLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefContactLabel2.Location = new System.Drawing.Point(407, 977);
+            this.charRefContactLabel2.Location = new System.Drawing.Point(407, 961);
             this.charRefContactLabel2.Name = "charRefContactLabel2";
             this.charRefContactLabel2.Size = new System.Drawing.Size(105, 22);
             this.charRefContactLabel2.TabIndex = 39;
@@ -405,7 +405,7 @@ namespace Assignment09
             // charRefContactBox2
             // 
             this.charRefContactBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefContactBox2.Location = new System.Drawing.Point(411, 1002);
+            this.charRefContactBox2.Location = new System.Drawing.Point(411, 986);
             this.charRefContactBox2.Name = "charRefContactBox2";
             this.charRefContactBox2.Size = new System.Drawing.Size(327, 27);
             this.charRefContactBox2.TabIndex = 38;
@@ -414,7 +414,7 @@ namespace Assignment09
             // 
             this.charRefTitleLabel2.AutoSize = true;
             this.charRefTitleLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefTitleLabel2.Location = new System.Drawing.Point(407, 922);
+            this.charRefTitleLabel2.Location = new System.Drawing.Point(407, 906);
             this.charRefTitleLabel2.Name = "charRefTitleLabel2";
             this.charRefTitleLabel2.Size = new System.Drawing.Size(114, 22);
             this.charRefTitleLabel2.TabIndex = 37;
@@ -423,7 +423,7 @@ namespace Assignment09
             // charRefTitleBox2
             // 
             this.charRefTitleBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefTitleBox2.Location = new System.Drawing.Point(411, 947);
+            this.charRefTitleBox2.Location = new System.Drawing.Point(411, 931);
             this.charRefTitleBox2.Name = "charRefTitleBox2";
             this.charRefTitleBox2.Size = new System.Drawing.Size(327, 27);
             this.charRefTitleBox2.TabIndex = 36;
@@ -432,7 +432,7 @@ namespace Assignment09
             // 
             this.charRefNameLabel2.AutoSize = true;
             this.charRefNameLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefNameLabel2.Location = new System.Drawing.Point(407, 867);
+            this.charRefNameLabel2.Location = new System.Drawing.Point(407, 851);
             this.charRefNameLabel2.Name = "charRefNameLabel2";
             this.charRefNameLabel2.Size = new System.Drawing.Size(67, 22);
             this.charRefNameLabel2.TabIndex = 35;
@@ -441,7 +441,7 @@ namespace Assignment09
             // charRefNameBox2
             // 
             this.charRefNameBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.charRefNameBox2.Location = new System.Drawing.Point(411, 892);
+            this.charRefNameBox2.Location = new System.Drawing.Point(411, 876);
             this.charRefNameBox2.Name = "charRefNameBox2";
             this.charRefNameBox2.Size = new System.Drawing.Size(327, 27);
             this.charRefNameBox2.TabIndex = 34;
@@ -450,7 +450,7 @@ namespace Assignment09
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(127, 1022);
+            this.label15.Location = new System.Drawing.Point(127, 1006);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(0, 22);
             this.label15.TabIndex = 40;
@@ -521,7 +521,7 @@ namespace Assignment09
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(807, 501);
+            this.ClientSize = new System.Drawing.Size(807, 1025);
             this.Controls.Add(this.middleNameBox);
             this.Controls.Add(this.middleNameLabel);
             this.Controls.Add(this.firstNameBox);

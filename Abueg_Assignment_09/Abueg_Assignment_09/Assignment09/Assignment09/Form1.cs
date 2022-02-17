@@ -8,6 +8,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PdfSharp.Pdf;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System.IO;
+using System.Drawing.Imaging;
+using System.Drawing.Drawing2D;
+using PdfSharp.Drawing;
+using PdfPage = PdfSharp.Pdf.PdfPage;
+using PdfDocument = PdfSharp.Pdf.PdfDocument;
 
 namespace Assignment09
 {
@@ -87,8 +96,47 @@ namespace Assignment09
 
 
             string filePath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text + firstNameBox.Text + ".json";
+            string pdfPath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text + firstNameBox.Text + ".pdf";
             System.IO.File.WriteAllText(filePath, jsonResume);
 
+            /*
+            Document pdfResume = new Document();
+            PdfWriter.GetInstance(pdfResume, new FileStream(pdfPath, FileMode.Create));
+            pdfResume.Open();
+            Paragraph p1 = new Paragraph("Hello World");
+            pdfResume.Add(p1);
+            pdfResume.Close();
+            */
+            try
+            {
+                System.Drawing.Rectangle bounds = this.Bounds;
+                using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
+                {
+                    using (Graphics g = Graphics.FromImage(bitmap))
+                    {
+                        g.CopyFromScreen(new Point(bounds.Left, bounds.Top), Point.Empty, bounds.Size, CopyPixelOperation.SourceCopy);
+                    }
+                    bitmap.Save(@"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Rectangle.bmp", ImageFormat.Bmp);
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show(err.Message.ToString());
+            }
+
+            PdfDocument doc = new PdfDocument();
+
+            PdfPage oPage = new PdfPage();
+
+            doc.Pages.Add(oPage);
+            oPage.Rotate = 90;
+            XGraphics xgr = XGraphics.FromPdfPage(oPage);
+            XImage img = XImage.FromFile(@"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\Rectangle.bmp");
+
+            xgr.DrawImage(img, 0, 0);
+
+            doc.Save(pdfPath);
+            doc.Close();
         }
 
         
