@@ -31,28 +31,27 @@ namespace Assignment09
                 string fileName = fdlg.FileName;
                 string jsonResume = System.IO.File.ReadAllText(fileName);
                 NewResume newResume = JsonNet.Deserialize<NewResume>(jsonResume);
-
-                MessageBox.Show($"surname: { newResume.surname} ");
-                newResume.surname = surnameBox.Text;
-                newResume.firstname = firstNameBox.Text;
-                newResume.middlename = middleNameBox.Text;
-                newResume.address = addressBox.Text;
-                newResume.contact = contactBox.Text;
-                newResume.email = emailBox.Text;
-                newResume.hsName = hsNameBox.Text;
-                newResume.hsYears = hsYearsBox.Text;
-                newResume.collegeName = collegeNameBox.Text;
-                newResume.collegeCourse = collegeCourseBox.Text;
-                newResume.collegeYears = collegeYearsBox.Text;
-                newResume.exp = expBox.Text;
-                newResume.skills = skillsBox.Text;
-                newResume.charRefName1 = charRefNameBox1.Text;
-                newResume.charRefTitle1 = charRefTitleBox1.Text;
-                newResume.charRefContact1 = charRefContactBox1.Text;
-                newResume.charRefName2 = charRefNameBox2.Text;
-                newResume.charRefTitle2 = charRefTitleBox2.Text;
-                newResume.charRefContact2 = charRefContactBox2.Text;
-
+                surnameBox.Text = newResume.surname;
+                firstNameBox.Text = newResume.firstname;
+                middleNameBox.Text = newResume.middlename;
+                ageBox.Text = newResume.age;
+                genderBox.Text = newResume.gender;
+                addressBox.Text = newResume.address;
+                contactBox.Text = newResume.contact;
+                emailBox.Text = newResume.email;
+                hsNameBox.Text = newResume.hsName;
+                hsYearsBox.Text = newResume.hsYears;
+                collegeNameBox.Text = newResume.collegeName;
+                collegeCourseBox.Text = newResume.collegeCourse;
+                collegeYearsBox.Text = newResume.collegeYears;
+                expBox.Text = newResume.exp;
+                skillsBox.Text = newResume.skills;
+                charRefNameBox1.Text = newResume.charRefName1;
+                charRefTitleBox1.Text = newResume.charRefTitle1;
+                charRefContactBox1.Text = newResume.charRefContact1;
+                charRefNameBox2.Text = newResume.charRefName2;
+                charRefTitleBox2.Text = newResume.charRefTitle2;
+                charRefContactBox2.Text = newResume.charRefContact2;
 
             }
         }
@@ -64,6 +63,8 @@ namespace Assignment09
                 surname = surnameBox.Text,
                 firstname = firstNameBox.Text,
                 middlename = middleNameBox.Text,
+                age = ageBox.Text,
+                gender = genderBox.Text,
                 address = addressBox.Text,
                 contact = contactBox.Text,
                 email = emailBox.Text,
@@ -100,6 +101,8 @@ namespace Assignment09
         public string surname;
         public string firstname;
         public string middlename;
+        public string age;
+        public string gender;
         public string address;
         public string contact;
         public string email;
