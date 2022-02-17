@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Json.Net;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,15 +25,21 @@ namespace Assignment09
 
         private void generate_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("tangina");
+            var newResume = new NewResume
+            {
+                surname = "Abueg"
+            };
+
+            string jsonString = JsonNet.Serialize(newResume);
+            MessageBox.Show(jsonString);
         }
 
         
 
 
     }
-    public class MyResume
+    public class NewResume
     {
-
+        public string surname;
     }
 }
