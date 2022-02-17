@@ -27,11 +27,16 @@ namespace Assignment09
         {
             var newResume = new NewResume
             {
-                surname = "Abueg"
+                surname = surnameBox.Text
             };
 
-            string jsonString = JsonNet.Serialize(newResume);
-            MessageBox.Show(jsonString);
+            string jsonResume = JsonNet.Serialize(newResume);
+
+            MessageBox.Show(jsonResume);
+
+            string filePath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text +".txt";
+            System.IO.File.WriteAllText(filePath, jsonResume);
+
         }
 
         
