@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QRCoder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -107,6 +108,15 @@ namespace Abueg_Assignment_06
                             sw.WriteLine(" ");
                         }
                     }
+
+                    string strCode = File.ReadAllText(filename);
+                    QRCodeGenerator qrGenerator = new QRCoder.QRCodeGenerator();
+                    QRCodeData qrCodeData = qrGenerator.CreateQrCode(strCode, QRCodeGenerator.ECCLevel.Q);
+                    QRCode qrCode = new QRCode(qrCodeData);
+                    Bitmap qrCodeImage = qrCode.GetGraphic(5, Color.Black, Color.White, null, 15, 5, true);
+                    qrCodeImage.Save(@"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_06\ContactTracingForm.jpg");
+
+
                     MessageBox.Show("Successfully submitted");
                     tempBox.Text = "";
                     dateBox.Text = "";
@@ -126,6 +136,7 @@ namespace Abueg_Assignment_06
             {
                 MessageBox.Show("Please check the checkbox");
             }
+
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
