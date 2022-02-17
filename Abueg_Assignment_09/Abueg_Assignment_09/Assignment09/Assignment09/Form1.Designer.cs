@@ -121,7 +121,7 @@ namespace Assignment09
             this.genderBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.genderBox.Location = new System.Drawing.Point(681, 50);
             this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(53, 27);
+            this.genderBox.Size = new System.Drawing.Size(72, 27);
             this.genderBox.TabIndex = 5;
             // 
             // genderLabel
@@ -307,7 +307,7 @@ namespace Assignment09
             this.expBox.Name = "expBox";
             this.expBox.Size = new System.Drawing.Size(709, 118);
             this.expBox.TabIndex = 24;
-            this.expBox.Text = "";
+            this.expBox.Text = "Position, Company,Year Served";
             // 
             // skillsBox
             // 
@@ -316,7 +316,7 @@ namespace Assignment09
             this.skillsBox.Name = "skillsBox";
             this.skillsBox.Size = new System.Drawing.Size(709, 118);
             this.skillsBox.TabIndex = 26;
-            this.skillsBox.Text = "";
+            this.skillsBox.Text = "use \",\" (comma) to separate skills";
             // 
             // skillsLabel
             // 
