@@ -42,7 +42,23 @@ namespace Assignment09
             {
                 surname = surnameBox.Text,
                 firstname = firstNameBox.Text,
-                middlename = middleNameBox.Text
+                middlename = middleNameBox.Text,
+                address = addressBox.Text,
+                contact = contactBox.Text,
+                email = emailBox.Text,
+                hsName = hsNameBox.Text,
+                hsYears = hsYearsBox.Text,
+                collegeName = collegeNameBox.Text,
+                collegeCourse = collegeCourseBox.Text,
+                collegeYears = collegeYearsBox.Text,
+                exp = expBox.Text,
+                skills = skillsBox.Text,
+                charRefName1 = charRefNameBox1.Text,
+                charRefTitle1 = charRefTitleBox1.Text,
+                charRefContact1 = charRefContactBox1.Text,
+                charRefName2 = charRefNameBox2.Text,
+                charRefTitle2 = charRefTitleBox2.Text,
+                charRefContact2 = charRefContactBox2.Text
             };
 
             string jsonResume = JsonNet.Serialize(newResume);
