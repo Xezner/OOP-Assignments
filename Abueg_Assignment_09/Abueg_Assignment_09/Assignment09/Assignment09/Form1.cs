@@ -99,14 +99,8 @@ namespace Assignment09
             string pdfPath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text + firstNameBox.Text + ".pdf";
             System.IO.File.WriteAllText(filePath, jsonResume);
 
-            /*
-            Document pdfResume = new Document();
-            PdfWriter.GetInstance(pdfResume, new FileStream(pdfPath, FileMode.Create));
-            pdfResume.Open();
-            Paragraph p1 = new Paragraph("Hello World");
-            pdfResume.Add(p1);
-            pdfResume.Close();
-            */
+            
+            //pdf generation code
             try
             {
                 System.Drawing.Rectangle bounds = this.Bounds;
@@ -137,6 +131,7 @@ namespace Assignment09
 
             doc.Save(pdfPath);
             doc.Close();
+            MessageBox.Show("Resume has been successfully generated");
         }
 
         
