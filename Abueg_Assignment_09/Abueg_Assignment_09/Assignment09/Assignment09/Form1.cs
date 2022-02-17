@@ -33,6 +33,27 @@ namespace Assignment09
                 NewResume newResume = JsonNet.Deserialize<NewResume>(jsonResume);
 
                 MessageBox.Show($"surname: { newResume.surname} ");
+                newResume.surname = surnameBox.Text;
+                newResume.firstname = firstNameBox.Text;
+                newResume.middlename = middleNameBox.Text;
+                newResume.address = addressBox.Text;
+                newResume.contact = contactBox.Text;
+                newResume.email = emailBox.Text;
+                newResume.hsName = hsNameBox.Text;
+                newResume.hsYears = hsYearsBox.Text;
+                newResume.collegeName = collegeNameBox.Text;
+                newResume.collegeCourse = collegeCourseBox.Text;
+                newResume.collegeYears = collegeYearsBox.Text;
+                newResume.exp = expBox.Text;
+                newResume.skills = skillsBox.Text;
+                newResume.charRefName1 = charRefNameBox1.Text;
+                newResume.charRefTitle1 = charRefTitleBox1.Text;
+                newResume.charRefContact1 = charRefContactBox1.Text;
+                newResume.charRefName2 = charRefNameBox2.Text;
+                newResume.charRefTitle2 = charRefTitleBox2.Text;
+                newResume.charRefContact2 = charRefContactBox2.Text;
+
+
             }
         }
 
