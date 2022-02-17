@@ -27,14 +27,16 @@ namespace Assignment09
         {
             var newResume = new NewResume
             {
-                surname = surnameBox.Text
+                surname = surnameBox.Text,
+                firstname = firstNameBox.Text,
+                middlename = middleNameBox.Text
             };
 
             string jsonResume = JsonNet.Serialize(newResume);
 
             MessageBox.Show(jsonResume);
 
-            string filePath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text +".txt";
+            string filePath = @"C:\Users\prenc\Documents\GitHub\OOP-Assignments\Abueg_Assignment_09\Abueg_Assignment_09\" + surnameBox.Text + firstNameBox.Text + ".txt";
             System.IO.File.WriteAllText(filePath, jsonResume);
 
         }
@@ -46,5 +48,7 @@ namespace Assignment09
     public class NewResume
     {
         public string surname;
+        public string firstname;
+        public string middlename;
     }
 }
